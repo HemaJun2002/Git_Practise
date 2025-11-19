@@ -1,0 +1,34 @@
+Pytest:
+1.It is the python testing framework
+2.Used to run and execute codes
+3.Can be used to test the unit testing, interation testing and the functional testing
+
+Procedure:
+Two files will be there one is source code and the other is test code.
+Source code is the original code which is used to test the program.
+Test_file is the one in which the test cases can be written to test the code
+Examples of the naming:
+Source code - filename.py
+test file   - test_filename.py (or) _test.filename.py [Naming shoule be this]
+
+How to compile the test script in command prompt:
+pytest test file name.py
+python filename.py
+
+Keywords to be used in python:
+1.assert() - Used to check whether it matches with Expected output(Wquality and unequality)
+    #Comparision operator --Using assert we can be check all the comparision operation like ==,!=,<=,<,>,>=
+2.pytest.raises - used for the Exception cases like ValueError and the ZeroDivisionError
+3.pytest.approx - Round off the given value
+4.assert in /assert no in - act as the membership operator.Able to check.
+5.string - a.startwith("String") and a.endwith("String")
+
+1.assert - It is the keyword which is used to check the equality and the unequality of the Test cases
+2.pytest.raises - Used to treat bhe Exception case
+3.pytest.approx
+4.assert in/assert not in
+5.string utilis
+6.string utilis
+
+
+
